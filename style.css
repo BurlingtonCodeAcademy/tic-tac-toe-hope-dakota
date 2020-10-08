@@ -2,9 +2,6 @@
 #board {
     display: flex;
 }
-h1 {
-
-}
 
 .cell {
     display: flex;
