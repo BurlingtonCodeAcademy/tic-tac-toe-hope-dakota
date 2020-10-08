@@ -1,0 +1,30 @@
+/*---------------------------------- Board Styling ----------------------------------*/
+#board {
+    display: flex;
+}
+h1 {
+
+}
+
+.cell {
+    display: flex;
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+}
+.cell123{
+  display:flex; 
+  flex-direction: column; 
+}
+
+.cell456{
+    display: flex;
+    flex-direction: column;
+}
+
+.cell789 {
+    display: flex;
+    flex-direction: column;
+}
+ 
+
