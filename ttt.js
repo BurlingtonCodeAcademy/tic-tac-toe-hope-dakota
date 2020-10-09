@@ -35,4 +35,27 @@ function changeStatus() {
     player = player === "X" ? "O" : "X";
     statusDisplay.innerHTML = "Player Turn: " + player
 }
-// ---------------------------------
+// --------------------------------- Win Condition ---------------------------------
+let cells = Array.from(document.querySelectorAll('.cell'));
+let playerArray = []
+let computerArray = []
+
+
+function playerIndex(event){
+    let id = event.target.id;
+    // can now put cells in array at specific index
+   playerArray[parseInt(id)] = player === "X" ? "O" : "X"; // turn thingy mikwe not work
+}
+
+
+
+let winningCells = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6], 
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
+    ]

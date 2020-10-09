@@ -1,6 +1,8 @@
 /*---------------------------------- Board Styling ----------------------------------*/
 #board {
     display: flex;
+    width: 300px;
+    margin: 50px;
 }
 
 .cell {
@@ -23,5 +25,4 @@
     display: flex;
     flex-direction: column;
 }
- 
 
