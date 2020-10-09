@@ -17,3 +17,4 @@ for (let item of cell) {
 let player = "X"
 let computer = "O"
   
+
